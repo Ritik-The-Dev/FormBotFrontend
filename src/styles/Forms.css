@@ -1,0 +1,158 @@
+.form-container {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.form-inner-outer {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.form-inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: end;
+    height: 100%;
+    gap: 20px;
+    overflow-y: auto;
+    font-family: Poppins, sans-serif;
+    padding-right: 10px;
+    scroll-behavior: smooth;
+}
+
+.bubble {
+    background: #f7f8ff;
+    padding: 15px;
+    border-radius: 8px;
+    width: fit-content;
+    max-width: 400px;
+    min-height: 50px;
+    overflow: hidden;
+    height: fit-content;
+    max-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bubble img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.bubble-left {
+    align-self: flex-start;
+    background: #f7f8ff;
+    color: #000;
+}
+
+.bubble-right {
+    align-self: flex-end;
+    background: #ff8e21;
+    color: #000;
+    color: white;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: #f7f8ff;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-input {
+    border: none;
+    outline: none;
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.next-button {
+    padding: 10px 15px;
+    background: #0042da;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-button:hover {
+    background: #0056b3;
+}
+
+.form-message {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text-white {
+    background-color: #ff8e21;
+    color: white;
+    padding: 10px 20px;
+}
+
+.message-flow {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buble-height {
+    min-height: 400px;
+}
+
+.bot-reply {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bot-img {
+    font-size: 20px;
+}
+
+@media screen and (max-width:1000px) {
+    .form-inner-outer {
+        height: 98%;
+        width: 100%;
+    }
+
+    .buble-height {
+        min-height: 200px;
+    }
+
+    .bubble {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .bubble img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+}

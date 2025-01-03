@@ -1,0 +1,111 @@
+.settings-container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #1F1F23;
+}
+
+.settings-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 80%;
+    padding: 20px;
+    font-family: Poppins;
+}
+
+.settings-container span {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.settings-form {
+    width: 493px;
+    height: 483px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 50px 10px 50px;
+    border: 1.38px solid #D0D0D0;
+    border-radius: 10px;
+    background: #1F1F23;
+    color: white;
+    font-size: 19.29px;
+}
+
+.input-group .iconright {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #888;
+}
+
+.input-group .iconleft {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #888;
+}
+
+.update-btn {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.update-btn:hover {
+    background: #0056b3;
+}
+
+.logout-container {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    color: #ff4d4d;
+    gap: 10px;
+}
+
+.logout-btn {
+    background: transparent;
+    color: #ff4d4d;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    text-decoration: underline;
+}
+
+.logout-icon{
+    font-size: 20px;
+}

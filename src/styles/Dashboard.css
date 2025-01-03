@@ -1,0 +1,247 @@
+.dashboard-page {
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(0deg, #121212, #121212),
+        linear-gradient(0deg, #18181B, #18181B);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.dashboard-nav {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    border-bottom: 1px solid #FFFFFF29
+}
+
+.all-workspaces {
+    width: 100%;
+}
+
+.left-nav {
+    width: 100%
+}
+
+.current-workspace {
+    width: 500px;
+    height: Fixed (40px)px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    border: 1px;
+    border: 1px solid #FFFFFF29;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    font-family: Poppins;
+    cursor: pointer;
+    background: #1D1D1D;
+}
+
+.mode-change-btn {
+    display: flex;
+    align-items: center;
+}
+
+.mode-change-btn span {
+    margin: 0 10px;
+}
+
+.mode-change-btn input[type="checkbox"] {
+    position: relative;
+    width: 50px;
+    height: 25px;
+    appearance: none;
+    background-color: #ddd;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.mode-change-btn input[type="checkbox"]:checked {
+    background-color: #4B83FF;
+    /* Example for dark mode */
+}
+
+.mode-change-btn input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 19px;
+    height: 19px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.mode-change-btn input[type="checkbox"]:checked:before {
+    transform: translateX(25px);
+}
+
+
+.mode-change-btn span {
+    color: white;
+    font-family: Poppins;
+}
+
+.last-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%
+}
+
+.share-btn {
+    width: 86px;
+    height: 40px;
+    color: white;
+    font-family: Poppins;
+    border-radius: 12px;
+    background-color: #1a5fff;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.drop-down-workspaces {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+    gap: 2px;
+    margin-top: 10px;
+    background: #1D1D1D;
+    z-index: 10;
+}
+
+.drop-down-workspaces span {
+    width: 500px;
+    height: Fixed (40px)px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    border: 1px;
+    border: 1px solid #FFFFFF29;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+.drop-down-workspaces span:hover {
+    opacity: 60%;
+}
+
+.folders-tagline {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.folder-btn {
+    width: Hug (171px)px;
+    height: Fixed (40px)px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    background-color: #2a2a2d;
+}
+
+.folder-btn span {
+    font-family: Poppins;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icons-png-del {
+    color: #F55050;
+    cursor: pointer;
+}
+
+.forms-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.form-div {
+    background: #1A5FFF;
+    width: 225px;
+    height: 270px;
+    cursor: pointer;
+    padding: 80.2px 0px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-relative {
+    width: 240px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-div span {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.icons-form {
+    color: white;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.icons-form-del {
+    position: absolute;
+    top: 0;
+    color: #F55050;
+    font-size: 30px;
+    right: 0;
+    cursor: pointer;
+}
+
+.logout {
+    color: #FFA54C !important;
+}
+
+
+.delete-title {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    padding: 0px 40px;
+}
+
+.w-440px{
+    width: 440px !important;
+}

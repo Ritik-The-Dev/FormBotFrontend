@@ -1,0 +1,110 @@
+.analytics-container {
+    background: #18171c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-evenly;
+    overflow-y: hidden;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.stats-container {
+    display: flex;
+    gap: 50px;
+}
+
+.stat-box {
+    background: #323232;
+    padding: 20px;
+    text-align: start;
+    width: 195.75px;
+    height: 120.83px;
+    border-radius: 16.11px;
+    font-family: Poppins;
+    font-size: 25.78px;
+    font-weight: 600;
+    color: white;
+}
+
+.stat-box p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.stat-box h2 {
+    margin: 5px 0 0;
+    font-size: 24px;
+}
+
+.table-container {
+    max-width: 80%;
+    width: 100%;
+    max-height: 400px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #2c2c2c;
+    border: 1px solid #444;
+    font-family: Poppins;
+
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #444;
+}
+
+table th {
+    background: #444;
+    text-transform: capitalize;
+    font-family: Poppins;
+}
+
+
+.chart-container {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.donut-chart,
+.completion-rate {
+    background: #333;
+    border-radius: 12px;
+    width: 244.89px;
+    height: 120.83px;
+    font-family: Poppins;
+    padding: 20px;
+}
+
+.donut-chart h2,
+.completion-rate h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.donut-chart p,
+.completion-rate p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.no-data-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 400;
+    color: #69696973;
+}
